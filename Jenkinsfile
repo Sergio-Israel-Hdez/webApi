@@ -6,11 +6,8 @@ pipeline {
             steps {
                 // Coloca aquí los comandos o scripts para el Paso A
                 // Por ejemplo: sh 'mi_comando'
-                dir('WebApi') {
-                            //sh 'pwd'  // Opcional: mostrar el directorio actual después del cambio
-                            sh 'ls -R'
-                            sh 'dotnet build'
-                        }
+                sh 'ls -R'
+                sh 'dotnet build'
               
             }
         }
