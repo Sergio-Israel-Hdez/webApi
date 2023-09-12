@@ -7,7 +7,7 @@ namespace WebApi.Controllers;
 public class UsuarioController : ControllerBase
 {
 
-    [HttpGet(Name = "GetWeatherForecast")]
+    [HttpGet(Name = "GetUsuario")]
     public string Get()
     {
         return "Nuevo controlador Agregado desde CI/CD";

@@ -28,6 +28,7 @@ pipeline {
                         dir('WebApi') {
                             //sh 'pwd'  // Opcional: mostrar el directorio actual después del cambio
                             sh 'ls -R'
+                            sh 'docker-compose down'
                             sh 'docker-compose up -d'
                         }
                     } else {
