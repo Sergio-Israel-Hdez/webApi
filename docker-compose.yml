@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile  # Nombre del Dockerfile que definiste anteriormente
     ports:
       - "5099:5099"  # Mapea el puerto 80 del host al puerto 80 del contenedor
-    container_name: webApiContainer  # Nombre de tu contenedor
+    container_name: webApiContainer-v2  # Nombre de tu contenedor
     restart: always  # Configuración para reiniciar siempre el contenedor en caso de fallo
 
 # Agrega otros servicios o contenedores si es necesa
